@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 245">
+<defs>
+<linearGradient id="plate" x2="0" y2="1"><stop stop-color="#fffdf0"/><stop offset="1" stop-color="#cdd6b9"/></linearGradient>
+<linearGradient id="fish" x2=".3" y2="1"><stop stop-color="#ffa477"/><stop offset="1" stop-color="#e96548"/></linearGradient>
+<pattern id="rice" width="13" height="11" patternUnits="userSpaceOnUse"><rect width="13" height="11" fill="#fff9e7"/><ellipse cx="4" cy="5" rx="3" ry="1.8" fill="#dddac4" transform="rotate(-25 4 5)"/></pattern>
+<g id="nigiri"><path d="M-46 2Q-51 21-35 30Q0 45 39 26Q50 16 43 1Z" fill="url(#rice)" stroke="#d6d4bf" stroke-width="2"/><path d="M-55-4Q-51-22-22-26L39-18Q54-10 52 9L38 19Q3 11-36 15L-54 10Z" fill="url(#fish)" stroke="#c9573f" stroke-width="2"/><g fill="none" stroke="#ffd1a4" stroke-width="5" stroke-linecap="round"><path d="M-35-18q4 16 20 29M-12-22q4 18 20 33M12-19q3 15 20 29M34-15q2 12 13 18"/></g><path d="M-51 4Q-5-5 48 9" stroke="#ffb78a" fill="none" stroke-width="2"/></g>
+<g id="roll"><path d="M-24-4v23c0 22 48 22 48 0V-4" fill="#263b30" stroke="#17291d" stroke-width="2"/><ellipse rx="24" ry="18" cy="-4" fill="url(#rice)" stroke="#263b30" stroke-width="5"/><ellipse rx="12" ry="9" cy="-4" fill="#f58a61"/><path d="M-4-12L5-10 7 3-3 4" fill="#a8c76c"/><path d="M-19 14v8m7-5v10m29-13v9" stroke="#506347" stroke-width="2"/></g>
+</defs>
+<g transform="rotate(-12 180 130)"><ellipse cx="176" cy="143" rx="141" ry="91" fill="#0d130d" opacity=".6"/><ellipse cx="176" cy="131" rx="141" ry="91" fill="url(#plate)" stroke="#a3b18f" stroke-width="3"/><ellipse cx="176" cy="131" rx="119" ry="72" fill="none" stroke="#a2b08c" stroke-width="2"/><ellipse cx="176" cy="131" rx="112" ry="65" fill="#e6e9d3"/>
+<use href="#nigiri" transform="translate(130 103) rotate(-9)"/><use href="#nigiri" transform="translate(195 153) rotate(-9)"/>
+<use href="#roll" transform="translate(235 95)"/><use href="#roll" transform="translate(274 125) scale(.9)"/>
+<path d="M83 150q-17-20-24-3q-14 8 0 18q-4 17 15 11q19 4 17-11q10-13-8-15" fill="#a5be69" stroke="#738f4c" stroke-width="2"/><path d="M62 158l14-7-4 16m9-13 2 10" fill="none" stroke="#d1df94" stroke-width="3"/>
+</g><g stroke="#412c1d" stroke-width="2"><path d="M56 16L323 211l-4 5L49 24Z" fill="#d9ab71"/><path d="M80 7L337 192l-4 5L73 15Z" fill="#ebc38b"/></g>
+</svg>
